@@ -142,6 +142,8 @@ With these additional optional prerequisites, recipients can approve or deny the
 
     1. In the **Manage** menu, select **Authentication**.
 
+        1. Add authentication platform type Single-page application.
+
         1. In the **Redirect URIs** section, paste in the following path: `https://<CMG FQDN>/CCM_Proxy_ServerAuth/ImplicitAuth`
 
         1. Replace `<CMG FQDN>` with the fully qualified domain name (FQDN) of your cloud management gateway (CMG) service. For example, GraniteFalls.Contoso.com.
